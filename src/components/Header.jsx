@@ -20,6 +20,7 @@ function Header() {
     { to: 'details', label: 'Dettagli' },
     { to: 'timeline', label: 'Timeline' },
     { to: 'rsvp', label: 'RSVP' },
+    { to: 'gift', label: 'Per Noi' },
     { to: 'gallery', label: 'Galleria' },
   ]
 

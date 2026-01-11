@@ -2,6 +2,8 @@ import Header from './components/Header'
 import Hero from './components/Hero'
 import CelebrationLocation from './components/CelebrationLocation'
 import Timeline from './components/Timeline'
+import RSVP from './components/RSVP'
+import GiftIBAN from './components/GiftIBAN'
 
 function App() {
   return (
@@ -33,19 +35,10 @@ function App() {
       <Timeline />
 
       {/* RSVP Section */}
-      <section
-        id="rsvp"
-        className="min-h-screen flex items-center justify-center bg-white px-4 sm:px-6 lg:px-8"
-      >
-        <div className="text-center max-w-4xl mx-auto">
-          <h2 className="font-cinzel text-gold text-3xl sm:text-4xl md:text-5xl mb-8">
-            Conferma la tua Presenza
-          </h2>
-          <p className="text-gray-600 text-lg sm:text-xl">
-            RSVP form placeholder
-          </p>
-        </div>
-      </section>
+      <RSVP />
+
+      {/* Gift/IBAN Section */}
+      <GiftIBAN />
 
       {/* Gallery Section */}
       <section
