@@ -22,6 +22,7 @@ function Header() {
     { to: 'rsvp', label: 'RSVP' },
     { to: 'gift', label: 'Per Noi' },
     { to: 'gallery', label: 'Galleria' },
+    { to: 'contact', label: 'Contatti' },
   ]
 
   const toggleMenu = () => {

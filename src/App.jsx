@@ -4,6 +4,7 @@ import CelebrationLocation from './components/CelebrationLocation'
 import Timeline from './components/Timeline'
 import RSVP from './components/RSVP'
 import GiftIBAN from './components/GiftIBAN'
+import Contacts from './components/Contacts'
 
 function App() {
   return (
@@ -56,19 +57,7 @@ function App() {
       </section>
 
       {/* Contact Section */}
-      <section
-        id="contact"
-        className="min-h-screen flex items-center justify-center bg-white px-4 sm:px-6 lg:px-8"
-      >
-        <div className="text-center max-w-4xl mx-auto">
-          <h2 className="font-cinzel text-gold text-3xl sm:text-4xl md:text-5xl mb-8">
-            Contatti
-          </h2>
-          <p className="text-gray-600 text-lg sm:text-xl">
-            Contact information placeholder
-          </p>
-        </div>
-      </section>
+      <Contacts />
     </div>
   )
 }
