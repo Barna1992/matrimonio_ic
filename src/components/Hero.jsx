@@ -15,7 +15,7 @@ function Hero() {
     setIsVisible(true)
 
     // Countdown timer
-    const weddingDate = new Date('2025-10-24T00:00:00').getTime()
+    const weddingDate = new Date('2026-10-24T00:00:00').getTime()
 
     const updateCountdown = () => {
       const now = new Date().getTime()

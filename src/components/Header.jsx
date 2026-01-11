@@ -16,12 +16,10 @@ function Header() {
 
   const menuLinks = [
     { to: 'home', label: 'Home' },
-    { to: 'story', label: 'La Nostra Storia' },
     { to: 'details', label: 'Dettagli' },
     { to: 'timeline', label: 'Timeline' },
     { to: 'rsvp', label: 'RSVP' },
     { to: 'gift', label: 'Per Noi' },
-    { to: 'gallery', label: 'Galleria' },
     { to: 'contact', label: 'Contatti' },
   ]
 

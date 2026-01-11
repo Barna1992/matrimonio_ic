@@ -17,7 +17,7 @@ function Footer() {
             Ilaria & Cristian
           </p>
           <p className="font-cinzel text-white/90 text-sm sm:text-base tracking-widest uppercase">
-            24 Ottobre 2025
+            24 Ottobre 2026
           </p>
         </div>
 
