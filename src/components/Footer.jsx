@@ -30,7 +30,7 @@ function Footer() {
             &copy; {currentYear} Ilaria & Cristian. Tutti i diritti riservati.
           </p>
           <p className="text-white/50 text-xs mt-2">
-            Realizzato con <FaHeart className="inline text-white/70 text-xs mx-1" /> per il nostro giorno speciale
+            Realizzato con il <FaHeart className="inline text-white/70 text-xs mx-1" /> per il nostro giorno speciale
           </p>
         </div>
       </div>

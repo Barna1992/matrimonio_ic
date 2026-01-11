@@ -9,13 +9,13 @@ function Contacts() {
   const contacts = {
     ilaria: {
       name: 'Ilaria',
-      phone: '+39 123 456 7890',
-      phoneRaw: '+39123456789', // Without spaces for tel: link
+      phone: '+39 347 508 7568',
+      phoneRaw: '+393475087568', // Without spaces for tel: link
     },
     cristian: {
       name: 'Cristian',
-      phone: '+39 098 765 4321',
-      phoneRaw: '+390987654321',
+      phone: '+39 347 878 4341',
+      phoneRaw: '+393478784341',
     },
   }
 

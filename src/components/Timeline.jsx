@@ -34,7 +34,7 @@ function Timeline() {
       time: '11:00',
       title: 'Messa',
       icon: FaChurch,
-      description: 'Cerimonia religiosa presso la Chiesa Santa Maria Maggiore',
+      description: 'Cerimonia religiosa presso la Chiesa Santa Maria Maddalena',
     },
     {
       time: '13:00',
@@ -52,7 +52,7 @@ function Timeline() {
       time: '00:00',
       title: 'Tutti a nanna!',
       icon: FaMoon,
-      description: 'Fine della festa e buonanotte',
+      description: 'Fine della festa e buonanotte. Questo è il momento di ricaricarsi',
     },
   ]
 
@@ -152,9 +152,6 @@ function Timeline() {
           <div className="bg-gradient-to-r from-gold/10 via-gold/20 to-gold/10 rounded-lg p-8 border border-gold/30">
             <p className="font-script text-gold text-2xl sm:text-3xl md:text-4xl mb-4">
               Sarà una giornata lunga e carica di emozioni
-            </p>
-            <p className="text-gray-700 text-lg sm:text-xl">
-              e questo è il momento di ricaricarsi
             </p>
           </div>
         </div>

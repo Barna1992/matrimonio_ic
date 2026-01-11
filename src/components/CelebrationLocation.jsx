@@ -72,7 +72,7 @@ function CelebrationLocation() {
               {/* Card Body */}
               <div className="p-8">
                 <h4 className="font-cinzel text-gray-800 text-xl font-semibold mb-4">
-                  Chiesa Santa Maria Maggiore
+                  Chiesa Santa Maria Maddalena
                 </h4>
 
                 <div className="space-y-4">
@@ -81,8 +81,8 @@ function CelebrationLocation() {
                     <FaMapMarkerAlt className="text-gold text-xl mt-1 mr-3 flex-shrink-0" />
                     <div>
                       <p className="text-gray-700 leading-relaxed">
-                        Piazza Santa Maria Maggiore<br />
-                        Trento, TN<br />
+                        Via XV Agosto 52<br />
+                        38050, Scurelle (TN) <br />
                         Italia
                       </p>
                     </div>
@@ -90,7 +90,7 @@ function CelebrationLocation() {
 
                   {/* Google Maps Link */}
                   <a
-                    href="https://www.google.com/maps/search/?api=1&query=Chiesa+Santa+Maria+Maggiore+Trento"
+                    href="https://share.google/97IBq7kuTREavl0WZ"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center w-full mt-6 px-6 py-3 bg-gold hover:bg-gold-dark text-white font-cinzel font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 shadow-md hover:shadow-lg"
@@ -138,16 +138,16 @@ function CelebrationLocation() {
                     <FaMapMarkerAlt className="text-gold text-xl mt-1 mr-3 flex-shrink-0" />
                     <div>
                       <p className="text-gray-700 leading-relaxed">
-                        Villa Agnedo<br />
-                        Trento, TN<br />
-                        Italia
+                        Castel Ivano<br />
+                        via al Castello,1<br />
+                        38059 - Castel Ivano (TN)
                       </p>
                     </div>
                   </div>
 
                   {/* Google Maps Link */}
                   <a
-                    href="https://www.google.com/maps/search/?api=1&query=Castel+Ivano+Villa+Agnedo+Trento"
+                    href="https://maps.app.goo.gl/12AG1AoJ1MVGp1dn6"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center w-full mt-6 px-6 py-3 bg-gold hover:bg-gold-dark text-white font-cinzel font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 shadow-md hover:shadow-lg"

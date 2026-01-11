@@ -8,7 +8,7 @@ function GiftIBAN() {
 
   // Replace with actual IBAN
   const ibanNumber = 'IT00 X000 0000 0000 0000 0000 000'
-  const accountHolder = 'Ilaria Cognome & Cristian Cognome'
+  const accountHolder = 'Ilaria & Cristian'
 
   useEffect(() => {
     const observer = new IntersectionObserver(
