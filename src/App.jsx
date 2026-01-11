@@ -1,6 +1,7 @@
 import Header from './components/Header'
 import Hero from './components/Hero'
 import CelebrationLocation from './components/CelebrationLocation'
+import Timeline from './components/Timeline'
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
 
       {/* Celebration & Location Section */}
       <CelebrationLocation />
+
+      {/* Timeline Section */}
+      <Timeline />
 
       {/* RSVP Section */}
       <section

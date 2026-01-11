@@ -18,6 +18,7 @@ function Header() {
     { to: 'home', label: 'Home' },
     { to: 'story', label: 'La Nostra Storia' },
     { to: 'details', label: 'Dettagli' },
+    { to: 'timeline', label: 'Timeline' },
     { to: 'rsvp', label: 'RSVP' },
     { to: 'gallery', label: 'Galleria' },
   ]
