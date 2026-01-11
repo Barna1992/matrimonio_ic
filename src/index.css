@@ -3,12 +3,20 @@
 @theme {
   --font-family-cinzel: 'Cinzel', serif;
   --font-family-script: 'Great Vibes', cursive;
+
+  --color-gold: #D4AF37;
+  --color-gold-light: #E5C158;
+  --color-gold-dark: #B8941F;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {

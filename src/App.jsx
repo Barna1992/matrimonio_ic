@@ -1,12 +1,114 @@
+import Navigation from './components/Navigation'
+
 function App() {
   return (
-    <div className="min-h-screen bg-gray-50">
-      <h1 className="text-4xl font-bold text-center py-8">
-        Ilaria & Cristian
-      </h1>
-      <p className="text-center text-gray-600">
-        Wedding Website
-      </p>
+    <div className="min-h-screen bg-white">
+      <Navigation />
+
+      {/* Hero Section */}
+      <section
+        id="home"
+        className="min-h-screen flex items-center justify-center bg-white px-4 sm:px-6 lg:px-8"
+      >
+        <div className="text-center max-w-4xl mx-auto">
+          <h1 className="font-script text-gold text-6xl sm:text-7xl md:text-8xl lg:text-9xl mb-6">
+            Ilaria & Cristian
+          </h1>
+          <div className="font-cinzel text-gray-700 text-lg sm:text-xl md:text-2xl tracking-widest">
+            <p>CI SPOSIAMO</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Countdown Section */}
+      <section
+        id="countdown"
+        className="min-h-screen flex items-center justify-center bg-gray-50 px-4 sm:px-6 lg:px-8"
+      >
+        <div className="text-center max-w-4xl mx-auto">
+          <h2 className="font-cinzel text-gold text-3xl sm:text-4xl md:text-5xl mb-8">
+            Il Grande Giorno
+          </h2>
+          <p className="text-gray-600 text-lg sm:text-xl">
+            Countdown placeholder
+          </p>
+        </div>
+      </section>
+
+      {/* Story Section */}
+      <section
+        id="story"
+        className="min-h-screen flex items-center justify-center bg-white px-4 sm:px-6 lg:px-8"
+      >
+        <div className="text-center max-w-4xl mx-auto">
+          <h2 className="font-cinzel text-gold text-3xl sm:text-4xl md:text-5xl mb-8">
+            La Nostra Storia
+          </h2>
+          <p className="text-gray-600 text-lg sm:text-xl">
+            Story content placeholder
+          </p>
+        </div>
+      </section>
+
+      {/* Details Section */}
+      <section
+        id="details"
+        className="min-h-screen flex items-center justify-center bg-gray-50 px-4 sm:px-6 lg:px-8"
+      >
+        <div className="text-center max-w-4xl mx-auto">
+          <h2 className="font-cinzel text-gold text-3xl sm:text-4xl md:text-5xl mb-8">
+            Dettagli del Matrimonio
+          </h2>
+          <p className="text-gray-600 text-lg sm:text-xl">
+            Wedding details placeholder
+          </p>
+        </div>
+      </section>
+
+      {/* RSVP Section */}
+      <section
+        id="rsvp"
+        className="min-h-screen flex items-center justify-center bg-white px-4 sm:px-6 lg:px-8"
+      >
+        <div className="text-center max-w-4xl mx-auto">
+          <h2 className="font-cinzel text-gold text-3xl sm:text-4xl md:text-5xl mb-8">
+            Conferma la tua Presenza
+          </h2>
+          <p className="text-gray-600 text-lg sm:text-xl">
+            RSVP form placeholder
+          </p>
+        </div>
+      </section>
+
+      {/* Gallery Section */}
+      <section
+        id="gallery"
+        className="min-h-screen flex items-center justify-center bg-gray-50 px-4 sm:px-6 lg:px-8"
+      >
+        <div className="text-center max-w-4xl mx-auto">
+          <h2 className="font-cinzel text-gold text-3xl sm:text-4xl md:text-5xl mb-8">
+            Galleria
+          </h2>
+          <p className="text-gray-600 text-lg sm:text-xl">
+            Photo gallery placeholder
+          </p>
+        </div>
+      </section>
+
+      {/* Contact Section */}
+      <section
+        id="contact"
+        className="min-h-screen flex items-center justify-center bg-white px-4 sm:px-6 lg:px-8"
+      >
+        <div className="text-center max-w-4xl mx-auto">
+          <h2 className="font-cinzel text-gold text-3xl sm:text-4xl md:text-5xl mb-8">
+            Contatti
+          </h2>
+          <p className="text-gray-600 text-lg sm:text-xl">
+            Contact information placeholder
+          </p>
+        </div>
+      </section>
     </div>
   )
 }
