@@ -1,5 +1,6 @@
 import Header from './components/Header'
 import Hero from './components/Hero'
+import CelebrationLocation from './components/CelebrationLocation'
 
 function App() {
   return (
@@ -24,20 +25,8 @@ function App() {
         </div>
       </section>
 
-      {/* Details Section */}
-      <section
-        id="details"
-        className="min-h-screen flex items-center justify-center bg-gray-50 px-4 sm:px-6 lg:px-8"
-      >
-        <div className="text-center max-w-4xl mx-auto">
-          <h2 className="font-cinzel text-gold text-3xl sm:text-4xl md:text-5xl mb-8">
-            Dettagli del Matrimonio
-          </h2>
-          <p className="text-gray-600 text-lg sm:text-xl">
-            Wedding details placeholder
-          </p>
-        </div>
-      </section>
+      {/* Celebration & Location Section */}
+      <CelebrationLocation />
 
       {/* RSVP Section */}
       <section
