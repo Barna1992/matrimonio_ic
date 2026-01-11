@@ -80,11 +80,8 @@ function GiftIBAN() {
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
           }`}
         >
-          <p className="text-gray-700 text-base sm:text-lg md:text-xl leading-relaxed mb-6">
-            La vostra presenza è il regalo più grande che potremmo desiderare.
-          </p>
-          <p className="text-gray-600 text-base sm:text-lg leading-relaxed">
-            Se desiderate contribuire al nostro viaggio insieme, sarà per noi un gesto prezioso e gradito.
+          <p className="text-gray-700 text-base sm:text-lg md:text-xl leading-relaxed">
+            La tua presenza sarà il regalo più bello, ma se vuoi contribuire a realizzare i nostri progetti:
           </p>
         </div>
 

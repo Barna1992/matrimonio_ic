@@ -5,6 +5,7 @@ import Timeline from './components/Timeline'
 import RSVP from './components/RSVP'
 import GiftIBAN from './components/GiftIBAN'
 import Contacts from './components/Contacts'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -58,6 +59,9 @@ function App() {
 
       {/* Contact Section */}
       <Contacts />
+
+      {/* Footer */}
+      <Footer />
     </div>
   )
 }
