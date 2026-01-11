@@ -16,7 +16,6 @@ function Header() {
 
   const menuLinks = [
     { to: 'home', label: 'Home' },
-    { to: 'countdown', label: 'Countdown' },
     { to: 'story', label: 'La Nostra Storia' },
     { to: 'details', label: 'Dettagli' },
     { to: 'rsvp', label: 'RSVP' },

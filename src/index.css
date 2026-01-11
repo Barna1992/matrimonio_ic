@@ -1,13 +1,6 @@
-@import "tailwindcss";
-
-@theme {
-  --font-family-cinzel: 'Cinzel', serif;
-  --font-family-script: 'Great Vibes', cursive;
-
-  --color-gold: #D4AF37;
-  --color-gold-light: #E5C158;
-  --color-gold-dark: #B8941F;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 * {
   margin: 0;

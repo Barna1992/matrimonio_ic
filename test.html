@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        gold: {
+                            DEFAULT: '#D4AF37',
+                            light: '#E5C158',
+                            dark: '#B8941F',
+                        }
+                    },
+                    fontFamily: {
+                        cinzel: ['Cinzel', 'serif'],
+                        script: ['Great Vibes', 'cursive'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+<body class="bg-white">
+    <!-- Header Test -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-white shadow-md">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="font-script text-gold text-4xl">I & C</div>
+            <button class="w-10 h-10">
+                <span class="block w-6 h-0.5 bg-gold mb-1"></span>
+                <span class="block w-6 h-0.5 bg-gold mb-1"></span>
+                <span class="block w-6 h-0.5 bg-gold"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="min-h-screen flex items-center justify-center bg-white px-4 pt-20">
+        <div class="text-center max-w-4xl mx-auto">
+            <h1 class="font-script text-gold text-8xl mb-6">
+                Ilaria & Cristian
+            </h1>
+            <p class="font-cinzel text-gray-700 text-2xl tracking-widest">
+                CI SPOSIAMO
+            </p>
+        </div>
+    </section>
+
+    <!-- Test Section -->
+    <section class="min-h-screen flex items-center justify-center bg-gray-50 px-4">
+        <div class="text-center">
+            <h2 class="font-cinzel text-gold text-5xl mb-8">
+                Se vedi questo in oro, Tailwind funziona!
+            </h2>
+            <p class="text-gray-600 text-xl">
+                Font Script: <span class="font-script text-gold text-3xl">Test Script Font</span>
+            </p>
+            <p class="text-gray-600 text-xl mt-4">
+                Font Cinzel: <span class="font-cinzel text-gold text-2xl">Test Cinzel Font</span>
+            </p>
+        </div>
+    </section>
+</body>
+</html>

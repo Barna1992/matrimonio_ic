@@ -1,4 +1,5 @@
 import Header from './components/Header'
+import Hero from './components/Hero'
 
 function App() {
   return (
@@ -6,34 +7,7 @@ function App() {
       <Header />
 
       {/* Hero Section */}
-      <section
-        id="home"
-        className="min-h-screen flex items-center justify-center bg-white px-4 sm:px-6 lg:px-8"
-      >
-        <div className="text-center max-w-4xl mx-auto">
-          <h1 className="font-script text-gold text-6xl sm:text-7xl md:text-8xl lg:text-9xl mb-6">
-            Ilaria & Cristian
-          </h1>
-          <div className="font-cinzel text-gray-700 text-lg sm:text-xl md:text-2xl tracking-widest">
-            <p>CI SPOSIAMO</p>
-          </div>
-        </div>
-      </section>
-
-      {/* Countdown Section */}
-      <section
-        id="countdown"
-        className="min-h-screen flex items-center justify-center bg-gray-50 px-4 sm:px-6 lg:px-8"
-      >
-        <div className="text-center max-w-4xl mx-auto">
-          <h2 className="font-cinzel text-gold text-3xl sm:text-4xl md:text-5xl mb-8">
-            Il Grande Giorno
-          </h2>
-          <p className="text-gray-600 text-lg sm:text-xl">
-            Countdown placeholder
-          </p>
-        </div>
-      </section>
+      <Hero />
 
       {/* Story Section */}
       <section
