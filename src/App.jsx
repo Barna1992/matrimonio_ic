@@ -1,9 +1,9 @@
-import Navigation from './components/Navigation'
+import Header from './components/Header'
 
 function App() {
   return (
     <div className="min-h-screen bg-white">
-      <Navigation />
+      <Header />
 
       {/* Hero Section */}
       <section
