@@ -1,6 +1,8 @@
 import { useState, useEffect, useRef } from 'react'
 import { FaChurch, FaMoon } from 'react-icons/fa'
 import { GiWineGlass, GiCakeSlice } from 'react-icons/gi'
+import { LuPartyPopper } from "react-icons/lu";
+import { FaCarSide } from "react-icons/fa6";
 
 function Timeline() {
   const [isVisible, setIsVisible] = useState(false)
@@ -32,9 +34,15 @@ function Timeline() {
   const timelineItems = [
     {
       time: '11:00',
-      title: 'Messa',
+      title: 'Santa Messa',
       icon: FaChurch,
       description: 'Cerimonia religiosa presso la Chiesa Santa Maria Maddalena',
+    },
+    {
+      time: '',
+      title: 'Dopo la cerimonia',
+      icon: FaCarSide,
+      description: 'Trasferimento alla location in meno di 10 minuti',
     },
     {
       time: '13:00',
@@ -44,15 +52,21 @@ function Timeline() {
     },
     {
       time: '18:00',
-      title: 'Taglio torta e festa',
+      title: 'Taglio torta',
       icon: GiCakeSlice,
-      description: 'Il momento più dolce e inizio della festa',
+      description: 'Il momento più dolce della giornata',
+    },
+    {
+      time: '20:00',
+      title: 'Festa',
+      icon: LuPartyPopper,
+      description: 'Tutti pronti a ballare e divertirsi!',
     },
     {
       time: '00:00',
       title: 'Tutti a nanna!',
       icon: FaMoon,
-      description: 'Fine della festa e buonanotte. Questo è il momento di ricaricarsi',
+      description: 'E\' stata una giornata lunga ed emozionante, è ora di ricaricarsi',
     },
   ]
 
@@ -86,9 +100,9 @@ function Timeline() {
           }`}
         >
           <p className="text-gray-700 text-base sm:text-lg md:text-xl leading-relaxed max-w-3xl mx-auto">
-            Gli ingredienti principali della giornata sono il sorriso e le emozioni,
-            ma anche le tempistiche sono necessarie affinché vada tutto per il meglio!
-            Ecco perciò una scaletta della giornata:
+            Gli ingredienti principali della giornata saranno il sorriso e le emozioni,
+            ma anche le tempistiche saranno necessarie affinché vada tutto per il meglio!
+            <br/>Ecco perciò una scaletta generale della giornata:
           </p>
         </div>
 
@@ -149,11 +163,7 @@ function Timeline() {
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
           }`}
         >
-          <div className="bg-gradient-to-r from-gold/10 via-gold/20 to-gold/10 rounded-lg p-8 border border-gold/30">
-            <p className="font-script text-gold text-2xl sm:text-3xl md:text-4xl mb-4">
-              Sarà una giornata lunga e carica di emozioni
-            </p>
-          </div>
+
         </div>
       </div>
     </section>

@@ -18,8 +18,8 @@ function Navigation() {
     { to: 'home', label: 'Home' },
     { to: 'countdown', label: 'Countdown' },
     { to: 'story', label: 'Storia' },
-    { to: 'details', label: 'Dettagli' },
-    { to: 'rsvp', label: 'RSVP' },
+    { to: 'details', label: 'Dove e quando' },
+    { to: 'rsvp', label: 'Sarai dei nostri?' },
     { to: 'gallery', label: 'Galleria' },
     { to: 'contact', label: 'Contatti' },
   ]

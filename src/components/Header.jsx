@@ -16,9 +16,9 @@ function Header() {
 
   const menuLinks = [
     { to: 'home', label: 'Home' },
-    { to: 'details', label: 'Dettagli' },
+    { to: 'details', label: 'Dove e quando' },
     { to: 'timeline', label: 'Timeline' },
-    { to: 'rsvp', label: 'RSVP' },
+    { to: 'rsvp', label: 'Sarai dei nostri?' },
     { to: 'gift', label: 'Per Noi' },
     { to: 'contact', label: 'Contatti' },
   ]

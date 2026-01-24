@@ -207,7 +207,7 @@ function RSVP() {
                 htmlFor="fullName"
                 className="block font-cinzel text-gray-700 font-semibold mb-2"
               >
-                Nome Completo <span className="text-red-500">*</span>
+                Nomi Completi <span className="text-red-500">*</span>
               </label>
               <input
                 type="text"
@@ -318,7 +318,7 @@ function RSVP() {
                 htmlFor="dietaryRestrictions"
                 className="block font-cinzel text-gray-700 font-semibold mb-2"
               >
-                Intolleranze Alimentari
+                Intolleranze Alimentari o Allergie
               </label>
               <textarea
                 id="dietaryRestrictions"
@@ -328,25 +328,6 @@ function RSVP() {
                 rows="3"
                 className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gold transition-all"
                 placeholder="Es: lattosio, glutine..."
-              ></textarea>
-            </div>
-
-            {/* Allergie */}
-            <div className="mb-6">
-              <label
-                htmlFor="allergies"
-                className="block font-cinzel text-gray-700 font-semibold mb-2"
-              >
-                Allergie da Segnalare
-              </label>
-              <textarea
-                id="allergies"
-                name="allergies"
-                value={formData.allergies}
-                onChange={handleChange}
-                rows="3"
-                className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gold transition-all"
-                placeholder="Es: frutta secca, crostacei..."
               ></textarea>
             </div>
 
@@ -365,7 +346,7 @@ function RSVP() {
                 onChange={handleChange}
                 rows="4"
                 className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gold transition-all"
-                placeholder="Eventuali richieste o messaggi per gli sposi..."
+                placeholder="Eventuali richieste o messaggi per gli sposi ( es: necessità di seggiolone ... )"
               ></textarea>
             </div>
 

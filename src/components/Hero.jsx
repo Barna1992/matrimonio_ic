@@ -67,7 +67,7 @@ function Hero() {
           }`}
         >
           <p className="font-cinzel text-gray-700 text-xl sm:text-2xl md:text-3xl tracking-widest uppercase mb-12">
-            ci sposiamo!
+            si sposano!
           </p>
         </div>
 
@@ -123,10 +123,10 @@ function Hero() {
         >
           <div className="max-w-3xl mx-auto space-y-6">
             <p className="text-gray-700 text-base sm:text-lg md:text-xl leading-relaxed">
-              Finalmente è giunto anche per noi il momento di realizzare questo passo.
+              Finalmente è giunto anche per noi il momento di realizzare questo sogno.
             </p>
             <p className="text-gray-700 text-base sm:text-lg md:text-xl leading-relaxed">
-              Nello sperare di essere vicini quel giorno, vi lasciamo alcune informazioni
+              Nella speranza di avervi vicini quel giorno, vi lasciamo alcune informazioni
               per essere pronti a festeggiare con noi.
             </p>
           </div>

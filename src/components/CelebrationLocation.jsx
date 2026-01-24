@@ -129,7 +129,7 @@ function CelebrationLocation() {
                   <div className="flex items-start">
                     <GiCastle className="text-gold text-xl mt-1 mr-3 flex-shrink-0" />
                     <p className="text-gray-700 leading-relaxed">
-                      Per il pranzo e la festa vi aspettiamo al Castel Ivano
+                      Aperitivo di benvenuto e pranzo al castello
                     </p>
                   </div>
 

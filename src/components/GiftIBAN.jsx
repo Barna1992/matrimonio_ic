@@ -7,8 +7,8 @@ function GiftIBAN() {
   const sectionRef = useRef(null)
 
   // Replace with actual IBAN
-  const ibanNumber = 'IT00 X000 0000 0000 0000 0000 000'
-  const accountHolder = 'Ilaria & Cristian'
+  const ibanNumber = 'IT06S0817834940000018172910'
+  const accountHolder = 'Galter Cristian e Ropelato Ilaria'
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -81,7 +81,8 @@ function GiftIBAN() {
           }`}
         >
           <p className="text-gray-700 text-base sm:text-lg md:text-xl leading-relaxed">
-            La tua presenza sarà il regalo più bello, ma se vuoi contribuire a realizzare i nostri progetti:
+            Il regalo più prezioso sarà averti con noi nel giorno del nostro “si”. <br/> 
+            Ma se vorrai accompagnarci anche nella realizzazione dei nostri sogni e progetti futuri potrai farlo qui.
           </p>
         </div>
 
