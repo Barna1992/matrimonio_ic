@@ -93,9 +93,22 @@ function Timeline() {
           </div>
         </div>
 
+        {/* Timeline Image */}
+        <div
+          className={`flex justify-center mb-10 transition-all duration-1000 delay-200 ${
+            isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+          }`}
+        >
+          <img
+            src="/timeline.jpeg"
+            alt="Timeline"
+            className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg rounded-lg shadow-lg border-2 border-gold/20 object-cover"
+          />
+        </div>
+
         {/* Introduction Text */}
         <div
-          className={`text-center mb-16 transition-all duration-1000 delay-200 ${
+          className={`text-center mb-16 transition-all duration-1000 delay-300 ${
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
           }`}
         >

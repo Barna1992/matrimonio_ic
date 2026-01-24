@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react'
-import { FaCopy, FaCheckCircle, FaHeart } from 'react-icons/fa'
+import { FaCopy, FaCheckCircle, FaHeart, FaGift } from 'react-icons/fa'
 
 function GiftIBAN() {
   const [isVisible, setIsVisible] = useState(false)
@@ -62,9 +62,7 @@ function GiftIBAN() {
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-10'
           }`}
         >
-          <h2 className="font-cinzel text-gold text-3xl sm:text-4xl md:text-5xl tracking-wider uppercase mb-4">
-            Per Noi
-          </h2>
+          <FaGift className="text-gold text-5xl sm:text-6xl md:text-7xl mx-auto mb-4" />
           <div className="flex items-center justify-center mt-6">
             <div className="h-px w-16 bg-gold"></div>
             <div className="mx-4 text-gold text-2xl">
@@ -72,6 +70,19 @@ function GiftIBAN() {
             </div>
             <div className="h-px w-16 bg-gold"></div>
           </div>
+        </div>
+
+        {/* Per Noi Image */}
+        <div
+          className={`flex justify-center mb-12 transition-all duration-1000 delay-100 ${
+            isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+          }`}
+        >
+          <img
+            src="/per-noi.jpeg"
+            alt="Ilaria e Cristian"
+            className="w-full max-w-[256px] sm:max-w-xs md:max-w-sm lg:max-w-md rounded-lg shadow-lg border-2 border-gold/20 object-cover"
+          />
         </div>
 
         {/* Introduction Text */}

@@ -40,13 +40,15 @@ function Hero() {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center bg-gradient-to-br from-white via-white to-gold/10 px-4 sm:px-6 lg:px-8 relative overflow-hidden"
+      className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 relative overflow-hidden"
     >
-      {/* Decorative background elements */}
-      <div className="absolute inset-0 opacity-5">
-        <div className="absolute top-20 left-20 w-64 h-64 bg-gold rounded-full blur-3xl"></div>
-        <div className="absolute bottom-20 right-20 w-96 h-96 bg-gold rounded-full blur-3xl"></div>
-      </div>
+      {/* Background image - different positioning for mobile vs desktop */}
+      <div
+        className="absolute inset-0 bg-cover bg-no-repeat bg-[center_right_-10rem] sm:bg-[center_right_-5rem] md:bg-center"
+        style={{ backgroundImage: "url('/background-1.jpeg')" }}
+      ></div>
+      {/* Overlay for better text readability */}
+      <div className="absolute inset-0 bg-white/70"></div>
 
       <div className="relative z-10 text-center max-w-5xl mx-auto">
         {/* Main Title */}

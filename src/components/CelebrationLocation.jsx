@@ -90,7 +90,7 @@ function CelebrationLocation() {
 
                   {/* Google Maps Link */}
                   <a
-                    href="https://share.google/97IBq7kuTREavl0WZ"
+                    href="https://maps.app.goo.gl/aagVgbiVDPKKkgsG7"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center w-full mt-6 px-6 py-3 bg-gold hover:bg-gold-dark text-white font-cinzel font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 shadow-md hover:shadow-lg"

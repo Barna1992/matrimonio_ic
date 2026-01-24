@@ -144,7 +144,7 @@ function RSVP() {
       <div className="max-w-3xl mx-auto w-full">
         {/* Section Title */}
         <div
-          className={`text-center mb-12 transition-all duration-1000 ${
+          className={`text-center mb-8 transition-all duration-1000 ${
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-10'
           }`}
         >
@@ -156,7 +156,28 @@ function RSVP() {
             <div className="mx-4 text-gold text-2xl">✦</div>
             <div className="h-px w-16 bg-gold"></div>
           </div>
-          <p className="text-gray-700 text-lg mt-8">
+        </div>
+
+        {/* Conferma Presenza Image */}
+        <div
+          className={`flex justify-center mb-10 transition-all duration-1000 delay-100 ${
+            isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+          }`}
+        >
+          <img
+            src="/conferma-presenza.jpeg"
+            alt="Conferma Presenza"
+            className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg rounded-lg shadow-lg border-2 border-gold/20 object-cover"
+          />
+        </div>
+
+        {/* Introduction Text */}
+        <div
+          className={`text-center mb-12 transition-all duration-1000 delay-200 ${
+            isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+          }`}
+        >
+          <p className="text-gray-700 text-lg">
             Ci farebbe molto piacere averti con noi in questo giorno speciale!
           </p>
         </div>
