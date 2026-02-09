@@ -104,8 +104,12 @@ function RSVP() {
       })
 
       if (!response.ok) {
-        const data = await response.json()
-        throw new Error(data.error || 'Errore nell\'invio')
+        let message = 'Errore nell\'invio'
+        try {
+          const data = await response.json()
+          message = data.error || message
+        } catch {}
+        throw new Error(message)
       }
 
       // Success
