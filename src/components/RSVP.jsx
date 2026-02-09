@@ -97,13 +97,24 @@ function RSVP() {
     setSubmitStatus(null)
 
     try {
-      const response = await fetch('/api/rsvp', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(formData),
-      })
+      const maxRetries = 3
+      let response
 
-      if (!response.ok) {
+      for (let attempt = 0; attempt < maxRetries; attempt++) {
+        try {
+          response = await fetch('/api/rsvp', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(formData),
+          })
+          if (response.ok || response.status < 500) break
+        } catch {}
+        if (attempt < maxRetries - 1) {
+          await new Promise((r) => setTimeout(r, 2000 * (attempt + 1)))
+        }
+      }
+
+      if (!response || !response.ok) {
         let message = 'Errore nell\'invio'
         try {
           const data = await response.json()
