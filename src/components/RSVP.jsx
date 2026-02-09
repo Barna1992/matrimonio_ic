@@ -97,19 +97,16 @@ function RSVP() {
     setSubmitStatus(null)
 
     try {
-      // TODO: Replace with your actual API endpoint or Firebase function
-      // Example with fetch:
-      // const response = await fetch('YOUR_API_ENDPOINT', {
-      //   method: 'POST',
-      //   headers: { 'Content-Type': 'application/json' },
-      //   body: JSON.stringify(formData),
-      // })
+      const response = await fetch('/api/rsvp', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      })
 
-      // Simulate API call
-      await new Promise((resolve) => setTimeout(resolve, 1500))
-
-      // For now, log to console (replace with actual API call)
-      console.log('Form submitted:', formData)
+      if (!response.ok) {
+        const data = await response.json()
+        throw new Error(data.error || 'Errore nell\'invio')
+      }
 
       // Success
       setSubmitStatus('success')
